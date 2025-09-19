@@ -9,11 +9,15 @@
 .container{
   max-width: 1536px;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 6rem;
 }
 
 :root{
-  font-family: 'Jost';  
+  font-family: 'Jost'; 
+  .swiper-button-next,
+  .swiper-button-prev{
+    color: hsla(211, 21%, 48%, 1);
+  }
 }
 
 
@@ -22,3 +26,12 @@ main{
   margin: 0 auto;
   
 }
+
+.swiper-button-next{
+  color: hsla(211, 21%, 48%, 1);
+}
+
+.swiper-button-prev{
+  color: hsla(211, 21%, 48%, 1);
+}
+

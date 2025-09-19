@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper/modules'
 import image1 from '../../../public/Webbdesignimg.png'
 import image2 from '../../../public/Marketingimg.png'
 import image3 from '../../../public/Brandingimg.png'
 import 'swiper/css'
+import 'swiper/css/navigation'
 
 const ServiceSlider = () => {
   const [index, setIndex] = useState(0)
@@ -43,7 +45,9 @@ const ServiceSlider = () => {
       spaceBetween={20} 
       slidesPerView={2.1}
       centeredSlides={false}
+      modules={[Navigation]}
       loop={false}
+      navigation
     >
       {cards.map((card) => (
         <SwiperSlide key={card.id}>
