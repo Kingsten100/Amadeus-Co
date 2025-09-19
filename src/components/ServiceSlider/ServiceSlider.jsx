@@ -51,7 +51,7 @@ const ServiceSlider = () => {
             <img src={card.image} alt="" />
             <h3 className='service-card-title'>{card.title}</h3>
             <p className='service-card-text'>{card.text}</p>
-            <Link className='service-card-link'>{card.linkText} <img src="../../public/ArrowRight.svg" alt="" /></Link>
+            <Link to={`/tjanster/${card.link}`} className='service-card-link'>{card.linkText} <img src="../../public/ArrowRight.svg" alt="" /></Link>
           </div>
         </SwiperSlide>
       ))}
