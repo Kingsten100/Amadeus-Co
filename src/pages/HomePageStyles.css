@@ -1,0 +1,51 @@
+.choose-us-section{
+  padding-top: 5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: hsla(212, 15%, 48%, 1);
+}
+
+.choose-us-card{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  max-width: 450px;
+  padding-top: 3rem;
+}
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(212, 27%, 73%, 0.65);
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+
+  
+}
+
+
+.choose-us-title{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsla(212, 11%, 35%, 1);
+}
+
+.choose-us-content{
+  font-size: 1.1rem;
+  color: hsla(60, 1%, 24%, 1);
+}
+
+.choose-us-row{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.choose-us-row-2{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding-block: 2rem;
+}

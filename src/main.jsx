@@ -8,6 +8,8 @@ import './components/Navbar/NavbarStyles.css'
 import './components/Hero/HeroStyles.css'
 import './components/HeroText/HeroTextStyles.css'
 import './components/ServiceCard/ServiceCardStyles.css'
+import './pages/HomePageStyles.css'
+ 
 
 
 import HomePage from './pages/HomePage.jsx'
