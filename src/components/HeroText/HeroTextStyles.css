@@ -1,0 +1,17 @@
+
+
+.hero-info-text{
+  color: hsla(212, 11%, 35%, 1);
+  font-size: 1.1rem;
+}
+
+.text-weight-semi-bold{
+  font-weight: 600;
+}
+
+.below-hero-text{
+  padding-right: 30rem;
+  padding-top: 2rem;
+  color: hsla(211, 11%, 35%, 1);
+  font-size: 1rem;
+}

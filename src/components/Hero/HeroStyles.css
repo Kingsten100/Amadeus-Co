@@ -1,0 +1,36 @@
+.hero-img-container{
+  margin-top: 1rem;
+  height: calc(100vh - 6rem);
+  width: 100%;
+}
+
+.hero-img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-info-blob{
+  z-index: 100;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  background-color: hsla(36, 20%, 95%, 1);
+  border-radius: 0rem 10rem 10rem 0rem;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.orange-text{
+  color: hsla(21, 40%, 53%, 1);
+}
+
+.blue-text{
+  color: hsla(211, 21%, 48%, 1);
+  font-size: 2.6rem;
+}
+
