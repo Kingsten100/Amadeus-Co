@@ -18,6 +18,7 @@
   .swiper-button-prev{
     color: hsla(211, 21%, 48%, 1);
   }
+  background-color: hsla(0, 0%, 96%, 1);
 }
 
 
@@ -25,13 +26,31 @@ main{
   max-width: 1536px;
   margin: 0 auto;
   
+  
 }
 
+
+
 .swiper-button-next{
-  color: hsla(211, 21%, 48%, 1);
+  color: hsl(211, 21%, 10%) !important;
+  width: 60px !important;
+  height: 60px !important;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.597);
+  border-radius: 50%;
+  top: 36% !important;
+  transform: translateY(-50%) !important;
+  
 }
 
 .swiper-button-prev{
-  color: hsla(211, 21%, 48%, 1);
+  color: hsl(211, 21%, 10%) !important;
+  top: 36% !important;
+  transform: translateY(-50%) !important;
+  background-color: rgba(255, 255, 255, 0.597);
+  border-radius: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  padding: 1rem;
 }
 

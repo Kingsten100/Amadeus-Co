@@ -10,6 +10,7 @@ import { VscGraph } from "react-icons/vsc";
 import { TbPigMoney } from "react-icons/tb";
 import { IoMdTime } from "react-icons/io";
 import { PiNotePencilBold } from "react-icons/pi";
+import { Link } from 'react-router-dom'
 
 
 
@@ -90,6 +91,26 @@ const HomePage = () => {
               <div className='choose-us-info'>
                 <h4 className='choose-us-title'>Långsiktig partner</h4>
                 <p className='choose-us-content'>Vårt arbete slutar inte vid lansering – vi erbjuder support och rådgivning för att säkerställa att din digitala närvaro fortsätter att växa.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className='casestudy-container'>
+            <div className='casestudy-header'>
+              <h4>Kundcase</h4>
+              <p>Ta en titt på några av våra tidigare projekt!</p>
+            </div>
+            <div className='casestudy-card'>
+              <div className='casestudy-img-container'>
+                <img src="../../public/Casestudy.png" alt="" />
+              </div>
+              <div className='casestudy-card-content'>
+                <h5 className='casestudy-card-title'>FÖRSKOLAN FEMTIETTAN</h5>
+                <p className='casestudy-card-testimonial'>"Otrolig trygghet med så bred kompetens och hög designkvalitet"</p>
+                <p className='casestudy-card-text'>Foodoras tillväxtresa har knappast undgått någon. Varumärkesteamet på foodora använder sedan i våras Klingit för att utöka den kreativa kapaciteten. </p>
+                <Link className='casestudy-card-link'>SE KUNDCASE <img src="../../public/ArrowRight.svg" alt="" /></Link>
               </div>
             </div>
           </div>
